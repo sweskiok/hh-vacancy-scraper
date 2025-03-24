@@ -1,0 +1,13 @@
+setup.py
+hhproject/__init__.py
+hhproject/items.py
+hhproject/middlewares.py
+hhproject/pipelines.py
+hhproject/settings.py
+hhproject/spiders/__init__.py
+hhproject/spiders/hh_spider.py
+project.egg-info/PKG-INFO
+project.egg-info/SOURCES.txt
+project.egg-info/dependency_links.txt
+project.egg-info/entry_points.txt
+project.egg-info/top_level.txt
