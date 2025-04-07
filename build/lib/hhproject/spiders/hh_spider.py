@@ -114,6 +114,7 @@ class HhVacancySpider(scrapy.Spider):
             "schedule": vacancy.get("schedule", {}).get("name"),
             "key_skills": [skill.get("name") for skill in vacancy.get("key_skills", [])],
             "city": vacancy.get("area", {}).get("name"),
+            "employer": vacancy.get("employer", {}).get("name"),
         }
 
         # Запись данных в файл
