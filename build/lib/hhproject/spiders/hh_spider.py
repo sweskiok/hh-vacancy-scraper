@@ -120,4 +120,5 @@ class HhVacancySpider(scrapy.Spider):
         # Запись данных в файл
         #with open("vacancies_with_date5.json", "a", encoding="utf-8") as f:
         #    f.write(json.dumps(item, ensure_ascii=False) + "\n")
-        print(json.dumps(item, ensure_ascii=False, indent=2))
+        #print(json.dumps(item, ensure_ascii=False, indent=2))
+        yield item
